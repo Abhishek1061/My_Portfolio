@@ -1,0 +1,43 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1fr 1fr;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    align-items: center;
+    background-color: #2a2c39;
+    color: white;
+    padding-left: 30px;
+
+
+}
+
+.right-Section {
+    padding-left: 50px;
+}
+
+.left-Section{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    margin-top: 10px;
+    padding-right: 30px;
+
+}
+
+.button-header{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
